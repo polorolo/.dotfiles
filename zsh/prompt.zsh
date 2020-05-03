@@ -39,7 +39,6 @@ function format_git_prompt {
     else
         echo ""
     fi
-
 }
 
 # set prompt
@@ -47,7 +46,7 @@ autoload -Uz promptinit && promptinit
 setopt prompt_subst
 
 precmd_functions+=(
-  set_git_prompt
+    set_git_prompt
 )
 
 PROMPT_FIRST_LINE='%K{$COLOR}%F{$CONTRASTCOLOR}${USERNAME}@${HOSTNAME}%f%k %B%F{$COLOR}${WORKDIR}%f%b ${GIT_PROMPT}'
