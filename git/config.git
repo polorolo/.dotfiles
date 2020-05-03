@@ -1,0 +1,5 @@
+[user]
+	name = polorolo
+
+[core]
+	pager = less -+X -+F
