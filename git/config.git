@@ -1,0 +1,6 @@
+[user]
+	email = paul.wmbrg@gmail.com
+	name = polorolo
+
+[core]
+	pager = less -+X -+F
