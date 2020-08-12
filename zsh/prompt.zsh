@@ -1,5 +1,5 @@
 # set colors
-COLOR='blue'
+COLOR='green'
 CONTRASTCOLOR='white'
 GITCOLOR='red'
 
